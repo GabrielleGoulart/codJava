@@ -1,14 +1,19 @@
 package Votacao_Metodos;
+
 import java.util.Scanner;
 
-import MediaNotas_Metodos.Object;
-import static Votacao_Metodos.Votacao_Metodos.verificarSituacaoVoto;
+import static Votacao_Metodos.Object.VerificadorIdade.verificarSituacaoVoto;
+
 
 public class Program {
+
     public static void main(String[] args) {
         int anoNascimento = lerAnoNascimento();
-        int idade = calcularIdade(anoNascimento);
-        verificarSituacaoVoto(idade);
+        int idade = (anoNascimento);
+
+        String resultado = verificarSituacaoVoto(idade);
+
+        System.out.println(resultado);
     }
 
     public static int lerAnoNascimento() {
@@ -16,14 +21,7 @@ public class Program {
         System.out.print("Digite o seu ano de nascimento: ");
         int anoNascimento = sc.nextInt();
 
-        int higher = 0;
-        Object.showResult(higher);
 
-        System.out.println(higher);
         return anoNascimento;
-
     }
-
-    }
-
-
+}

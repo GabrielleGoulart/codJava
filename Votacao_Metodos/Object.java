@@ -1,35 +1,32 @@
 package Votacao_Metodos;
 
 public class Object {
-    public static String verificarSituacaoVoto(int idade) {
-        if (idade >= 16) {
-            System.out.println("Você pode votar.");
-            if (idade < 18) {
-                System.out.println("O voto não é obrigatório, mas pode votar.");
-            } else if (idade <= 70) {
-                System.out.println("O voto é obrigatório.");
-            } else {
-                System.out.println("Você ainda não pode votar.");
-            }
-        } else {
-            System.out.println("Você não pode votar.");
-        }
+    public class VerificadorIdade {
 
-
-        public static int calcularIdade(int anoNascimento) {
+        public int calcularIdade(int anoNascimento) {
             int anoAtual = 2025;
             return anoAtual - anoNascimento;
         }
 
+        public static String verificarSituacaoVoto(int idade) {
+            if (idade >= 16) {
+                if (idade < 18) {
+                    return "Você pode votar. O voto não é obrigatório, mas pode votar.";
+                } else if (idade <= 70) {
+                    return "Você pode votar. O voto é obrigatório.";
+                } else {
+                    return "Você pode votar. O voto é opcional para você.";
+                }
+            } else {
+                return "Você não pode votar.";
+            }
+        }
+
+
         // Método que recebe um valor inteiro e retorna uma string formatada
-        public static String showResult;(int value) {
-            return "resultado: " + value;
+        public static String showResult(int value) {
+            return "Resultado: " + value;
         }
     }
-        }
-
-
-
-
-
+}
 
