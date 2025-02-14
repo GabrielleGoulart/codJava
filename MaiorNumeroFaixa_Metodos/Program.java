@@ -17,7 +17,7 @@ public class Program {
             sc.close();
         }
 
-        // Método para pedir um número ao usuário
+
         public static int pedirNumero(Scanner sc) {
             System.out.print("Digite um número: ");
             return sc.nextInt();
