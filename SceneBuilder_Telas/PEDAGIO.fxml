@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.shape.QuadCurve?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Scene xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane prefHeight="575.0" prefWidth="632.0" style="-fx-background-color: BLACK;">
+      <children>
+         <ImageView fitHeight="129.0" fitWidth="249.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../../../../../../../Downloads/download__2_-removebg-preview.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="85.0" fitWidth="92.0" layoutX="518.0" layoutY="503.0" pickOnBounds="true" preserveRatio="true" rotate="26.6">
+            <image>
+               <Image url="@../../../../../../../../../Downloads/download_a-removebg-preview.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="85.0" fitWidth="92.0" layoutX="511.0" layoutY="518.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../../../../../../../Downloads/download_a-removebg-preview.png" />
+            </image>
+         </ImageView>
+         <Text fill="#c64d4d" fontSmoothingType="LCD" layoutX="154.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PEDAGIO BELO HORIZONTE" wrappingWidth="218.13671875">
+            <font>
+               <Font name="System Italic" size="18.0" />
+            </font>
+         </Text>
+         <QuadCurve controlX="-56.0" controlY="-146.0" endX="424.0" endY="-68.0" fill="DODGERBLUE" layoutX="193.0" layoutY="227.0" startX="-153.0" startY="-68.0" stroke="BLACK" strokeType="INSIDE" />
+         <Ellipse fill="DODGERBLUE" layoutX="223.0" layoutY="204.0" radiusX="175.0" radiusY="28.0" stroke="BLACK" strokeType="INSIDE" />
+         <Ellipse fill="DODGERBLUE" layoutX="524.0" layoutY="204.0" radiusX="82.0" radiusY="25.0" stroke="BLACK" strokeType="INSIDE" />
+         <Text fill="#a83e3e" fontSmoothingType="LCD" layoutX="135.0" layoutY="210.0" strokeLineCap="BUTT" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="176.1328125">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Text>
+         <Text fill="#a83e3e" fontSmoothingType="LCD" layoutX="48.0" layoutY="366.0" strokeLineCap="BUTT" strokeType="OUTSIDE" strokeWidth="0.0" text="TIPO DE AUTOMOVEL" wrappingWidth="330.1328125">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Text>
+         <Text fill="#a83e3e" fontSmoothingType="LCD" layoutX="8.0" layoutY="295.0" strokeLineCap="BUTT" strokeType="OUTSIDE" strokeWidth="0.0" text="QUAL SEU DESTINO?" textAlignment="CENTER" wrappingWidth="229.1328125">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Text>
+         <TextField layoutX="48.0" layoutY="463.0" promptText="Placa" />
+         <TextField layoutX="48.0" layoutY="389.0" promptText="Carro, moto, caminhão..." />
+         <TextField layoutX="48.0" layoutY="302.0" promptText="Cidade" />
+         <Text fill="#a83e3e" fontSmoothingType="LCD" layoutX="14.0" layoutY="456.0" strokeLineCap="BUTT" strokeType="OUTSIDE" strokeWidth="0.0" text="INFORME A PLACA DO AUTOMOVEL" textAlignment="CENTER" wrappingWidth="330.1328125">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Text>
+         <Button layoutX="48.0" layoutY="512.0" mnemonicParsing="false" text="Verificar Preço" />
+      </children></AnchorPane>
+</Scene>
