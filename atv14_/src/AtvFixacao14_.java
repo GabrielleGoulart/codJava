@@ -44,8 +44,8 @@ public class AtvFixacao14_ {
 
      } else {
      System.err.println("Linha inválida (esperados 3 campos): " + line);
-      }
        }
+     }
      System.out.println("Arquivo gerado em: " + outputFilePath.toAbsolutePath());
 
      } catch (FileNotFoundException e) {
@@ -60,5 +60,5 @@ public class AtvFixacao14_ {
 
      sc.close();
       }
-        }
-         }
+   }
+}
